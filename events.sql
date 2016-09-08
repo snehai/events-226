@@ -30,7 +30,6 @@ CREATE TABLE `events` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(32) NOT NULL,
   `address` varchar(64) NOT NULL,
-  `city` varchar(32) NOT NULL,
   `date` date NOT NULL,
   `free` tinyint(1) NOT NULL DEFAULT '1',
   `type` varchar(32) DEFAULT NULL,
